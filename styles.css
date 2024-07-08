@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 158, 158);
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    margin-top: -10px;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subMainContainer-1{
+    /* height:60%; */
+    /* border: 1px solid black; */
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.subMainContainer-2{
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    height: 174%;
+    width: 100%;
+
+}
+    
+
+/**********************container1************/
+        .container1{
+         /* border:1px solid black ; */
+         width: 100%;
+         /* height: 20%; */
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         
+        }
+        .containerBox{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        /* .rowContainer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        } */
+        .rowDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .colDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .rowrevDataBox{
+           
+           
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .colrevDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .data{
+            background-color: brown;
+            border-radius: 3px;
+        }
+        .fdData1{
+            width: 22%;
+            height: 1.5rem;
+        }
+        .fdData2{
+            width: 26%;
+            height: 1.5rem;
+        }
+        .fdData3{
+            width: 1.5rem;
+            height: 22%
+
+        }
+        .fdData4{
+            width: 1.5rem;
+            height:27% ;
+
+        }
+        .contentHeading{
+            margin: 10px;
+            padding: 10px;
+        }
+        /********************container 2**************/
+        .container2{
+         /* border:1px solid black ; */
+         width: 100%;
+         /* height: 20%; */
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         
+        }
+        .containerBox{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        .fsBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            border-radius: 5px;
+            
+        }
+        .centerBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        
+        .fEbox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            border-radius: 5px;
+        }
+        
+        .stretchBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center; 
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: stretch;
+            border-radius: 5px;
+        }
+        .data{
+            background-color: brown;
+            border-radius: 3px;
+            margin: 5px;
+        }
+        .aiData1{
+            width: 1.5rem;
+            height:22% ;
+
+        }
+        .aiData2{
+            width: 1.5rem;
+            height:30% ;
+        }
+        .aiData3{
+            width: 1.5rem;
+            height:26% ;
+        }
+        .aiData4{
+            width: 1.5rem;
+            height: 85%;
+        }
+
+/*************************************************************************/
+        .container3{
+         /* border:1px solid black ; */
+         width: 50%;
+         height: 100%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         
+         
+        }
+        .containerBox{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            margin: 5px;
+
+            
+            
+        }
+        /* .contentbox3{
+            margin: 100px;
+
+        } */
+         .boxArrangement{
+            margin: 50px;
+         }
+        .jsfsDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+            
+            
+        }
+        .jscenterDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .jsfeDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .jssbDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        
+        .jssaDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        
+        .jsseDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .data{
+            background-color: brown;
+            border-radius: 3px;
+        }
+        .jsData1{
+            width: 20%;
+            height: 5rem;
+            margin: 2px;
+        }
+        .jsData2{
+            width: 25%;
+            height: 5rem;
+        }
+
+/*******************************************************************************************/
+
+
+        .container4{
+         /* border:1px solid black ; */
+         width: 50%;
+         height: 100%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         
+         
+        }
+        .accontainerBox{
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 5px; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            margin: 5px;
+        }
+        .acfsDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            align-content: flex-start;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-radius: 5px;
+        
+            
+        }
+        .accenterDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center; 
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            border-radius: 5px;
+        }
+        .acfeDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            border-radius: 5px;
+        }
+        .acsDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            border-radius: 5px;
+        }
+        
+        .acsbDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 5px;
+        }
+        
+        .acsaDataBox{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+            border-radius: 5px;
+        }
+        .data{
+            background-color: brown;
+            border-radius: 3px;
+        }
+        .acData1{
+            width: 15%;
+            height: 2rem;
+            margin: 2px;
+        }
+        .acData2{
+            width: 25%;
+            height: 2rem;
+            margin: 2px;
+        }
+        .acData3{
+            width: 35%;
+            height: 2rem;
+            margin: 2px;
+        }
+        .hline{
+            height: 900px;
+            width: 2px;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+
+
+    
+    
